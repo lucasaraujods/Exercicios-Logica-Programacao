@@ -3,7 +3,7 @@
 // - Se estiver antes dos 18 anos, mostre em quantos anos faltam para o
 //alistamento.
 // - Se já tiver depois dos 18 anos, mostre quantos anos já se passaram do
-//alistamento.
+//alistamento!!
 
 let anoNascimento = parseInt(window.prompt("Informe o ano de nascimento"))
 let idade = 2024 - anoNascimento 
