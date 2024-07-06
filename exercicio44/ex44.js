@@ -19,4 +19,6 @@ else if(valorVendas>1500){
     comissao5 = diferenca *0.05
     comissao =  valorVendas*0.03
     salarioNovo = salario + comissao5 + comissao 
+    document.write(`O seu salário sem a comissão das vendas é ${salario} e com a comissão é ${salarioNovo}`)
+
 }
