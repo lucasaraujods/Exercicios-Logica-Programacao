@@ -12,10 +12,11 @@ let codigo = 0
 let altura = 0
 let peso = 0
 let contador = 0
-let maiorPeso= 0 
-let menorPeso = 1000 
-let menorAltura = 1000
-let maiorAltura = 0
+// adicionando: Number.MIN_SAFE_INTEGER que significa:  o menor número inteiro seguro.
+let maiorPeso= Number.MIN_SAFE_INTEGER
+let menorPeso = Number.MAX_SAFE_INTEGER
+let menorAltura = Number.MAX_SAFE_INTEGER
+let maiorAltura = Number.MIN_SAFE_INTEGER
 let somaAltura = 0
 let somaPeso = 0
 let mediaAltura = 0 
