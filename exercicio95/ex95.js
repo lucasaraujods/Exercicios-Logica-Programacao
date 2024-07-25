@@ -5,6 +5,7 @@
 let vetor = new Array(10)
 let vetorPares = []
 let vetorPosicoes = []
+let contadorPares = 0
 
 for(let i=0; i<10; i++){
 
@@ -13,15 +14,16 @@ for(let i=0; i<10; i++){
 
     if(numero % 2 == 0){
 
-        vetorPares[i]= numero
-        vetorPosicoes[i] = i
+        vetorPares[contadorPares]= numero
+        vetorPosicoes[contadorPares] = i
+        contadorPares++
     }
 }
 
 console.log("O vetor com todos o números: " + vetor)
 console.log("O vetor de números pares: os números são: " )
 
-for(let i= 0; i<10; i++){
+for(let i= 0; i<contadorPares; i++){
 
-    console.log("o total de numeros é de " + vetorPares + " sendo suas posições: " + vetorPosicoes)
+    console.log("o total de numeros é de " + vetorPares[i] + " sendo suas posições: " + vetorPosicoes[i])
 }
